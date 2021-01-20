@@ -846,6 +846,73 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@carbon/colors@^10.18.0":
+  version "10.18.0"
+  resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.18.0.tgz#d45180d4adf0bb96d13314a10f9d49148dba3e80"
+  integrity sha512-mXDCvWXVHK+G8xG3Ccfu6hZmT/oB9vE472ZqGyOOdm1QFXcJ+zH0GouYfzKV5HIOnMnnovb02bLTIAWpjOAcvQ==
+
+"@carbon/icon-helpers@^10.11.0", "@carbon/icon-helpers@^10.9.0":
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.11.0.tgz#e5e4dc8f849725858ae222017d5460dc4acddc2c"
+  integrity sha512-dnK8LB95M0OcUVQ2n3NOV2hwW6ku+5+N+SRvwLihtXeRPkpVv7dy9GojBC5aSd3+U3MJVOjVu8614S38DZk0pw==
+
+"@carbon/icons-vue@10.20.0":
+  version "10.20.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-vue/-/icons-vue-10.20.0.tgz#da8d00cd32fc4e985f6295d3f9f07593cb78a314"
+  integrity sha512-q3JsKgCNsteM9WKEt2EPomUtDc/cWf6m348/Kjn8nOnVuoVWrWJ5H8SzaVMF/mZfUw5ZBJbqO/GonQM7vVD0ww==
+  dependencies:
+    "@carbon/icon-helpers" "^10.9.0"
+
+"@carbon/icons-vue@^10.23.0":
+  version "10.23.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-vue/-/icons-vue-10.23.0.tgz#9d7853664327fd32d626d08aebfbf50e5bda8d82"
+  integrity sha512-TutzmclVKp77X5DhJOX95XlB8Fk0O28iY+lzLqtZgP0kU2NYOEhl3A3ULoAxndrEra63zPQUTTY6JsYs6L84EA==
+  dependencies:
+    "@carbon/icon-helpers" "^10.11.0"
+
+"@carbon/import-once@^10.4.0":
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/@carbon/import-once/-/import-once-10.4.0.tgz#b166279d65626487184a73cf8aa08230a583687c"
+  integrity sha512-emmOJLjHZhc5/1pjkKwSOuiW949U4B1SsKa3vLj9Ehix1IZX5s4TrxRsUrN6sutOn9r3rKfgoaY8sYzJm2RaYg==
+
+"@carbon/layout@^10.16.0":
+  version "10.16.0"
+  resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.16.0.tgz#d436aae3d7c349fe18cbdb93e3f90d764740812f"
+  integrity sha512-nJ/K2g5TaoA6bvct7W5x/JsN71XmDQ7QTTvEWW5pm52lj7/UYP3B2of2cXeI+SuxUWVfJTQSteh969EUG5Vfjg==
+
+"@carbon/motion@^10.11.0":
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-10.11.0.tgz#7c87c9b5645f3a4993bd140f6df9774b05e92a98"
+  integrity sha512-dqTlO/dniDYMTsfFgrAOLVk74/ZoyrVOgcTVHn/zI5uxHltrSxFpqcOUABWmMy1ubINFKLX5SWJC5a7zShMRrA==
+
+"@carbon/themes@^10.25.0":
+  version "10.25.0"
+  resolved "https://registry.yarnpkg.com/@carbon/themes/-/themes-10.25.0.tgz#eb116ce93ed03f3ef50f4e7a7720327b87190925"
+  integrity sha512-LAJUBaU2tR7AoNUC6J0I0zq1hGjEXxQT+087Rg1QZqKfLmxBVnyC+iqca1DJUHhCOrOwBRghUmxcgboH5xYRXQ==
+  dependencies:
+    "@carbon/colors" "^10.18.0"
+    "@carbon/layout" "^10.16.0"
+    "@carbon/type" "^10.19.0"
+    color "^3.1.2"
+
+"@carbon/type@^10.19.0":
+  version "10.19.0"
+  resolved "https://registry.yarnpkg.com/@carbon/type/-/type-10.19.0.tgz#f403d2fdb9de3236d8c866b2a2e9e073ff6dcd50"
+  integrity sha512-1Q2horfwMt/rNwRyM5uHmJwZn5eVcno51vUb9uUwajPHoYPq09MxN1ATsGd6MePUJtkwp8Xhgqtz4sBuQyT9kA==
+  dependencies:
+    "@carbon/import-once" "^10.4.0"
+    "@carbon/layout" "^10.16.0"
+
+"@carbon/vue@^2.36.0":
+  version "2.36.0"
+  resolved "https://registry.yarnpkg.com/@carbon/vue/-/vue-2.36.0.tgz#c5643867753082eda04eae9da8c62b5a77e85b6f"
+  integrity sha512-GOQR9usCh6lcG9wjmDlio2Nim2iXpe683Mwk4lpzQDozOhkveIq4xboHFjINQspz3VS+haPLfRkQ+2PJ9pcSgQ==
+  dependencies:
+    "@carbon/icons-vue" "10.20.0"
+    carbon-components "10.23.1"
+    flatpickr "4.6.3"
+    vue "^2.6.12"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -2304,6 +2371,15 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001173:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001174.tgz#0f2aca2153fd88ceb07a2bb982fc2acb787623c4"
   integrity sha512-tqClL/4ThQq6cfFXH3oJL4rifFBeM6gTkphjao5kgwMaW9yn0tKgQLAEfKzDwj6HQWCB/aWo8kTFlSvIN8geEA==
 
+carbon-components@10.23.1:
+  version "10.23.1"
+  resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.23.1.tgz#cf649a09aa25eac14dc158f0fb79ba625730026c"
+  integrity sha512-izeyNCo9cPfdw9358y5VPsDRzmGAO1wAjSnkD5gGEQO46P2HBdQcgXV1IqjAbFuit+TgfG/MrP38u+pmjp4zyQ==
+  dependencies:
+    flatpickr "4.6.1"
+    lodash.debounce "^4.0.8"
+    warning "^3.0.0"
+
 case-sensitive-paths-webpack-plugin@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.3.0.tgz#23ac613cc9a856e4f88ff8bb73bbb5e989825cf7"
@@ -2573,7 +2649,7 @@ color-string@^1.5.4:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
 
-color@^3.0.0:
+color@^3.0.0, color@^3.1.2:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/color/-/color-3.1.3.tgz#ca67fb4e7b97d611dcde39eceed422067d91596e"
   integrity sha512-xgXAcTHa2HeFCGLE9Xs/R82hujGtu9Jd9x4NW3T34+OMs7VoPsjwzRczKHvTAHeJwWFwX5j15+MgAppE8ztObQ==
@@ -3963,6 +4039,16 @@ flat-cache@^2.0.1:
     rimraf "2.6.3"
     write "1.0.3"
 
+flatpickr@4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.1.tgz#9eb498ab805dd27f5ae02e1ac6ac6c099ce45e94"
+  integrity sha512-3ULSxbXmcMIRzer/2jLNweoqHpwDvsjEawO2FUd9UFR8uPwLM+LruZcPDpuZStcEgbQKhuFOfXo4nYdGladSNw==
+
+flatpickr@4.6.3:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.3.tgz#15a8b76b6e34e3a072861250503a5995b9d3bc60"
+  integrity sha512-007VucCkqNOMMb9ggRLNuJowwaJcyOh4sKAFcdGfahfGc7JQbf94zSzjdBq/wVyHWUEs5o3+idhFZ0wbZMRmVQ==
+
 flatted@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.2.tgz#4575b21e2bcee7434aa9be662f4b7b5f9c2b5138"
@@ -5108,7 +5194,7 @@ js-queue@2.0.2:
   dependencies:
     easy-stack "^1.0.1"
 
-js-tokens@^4.0.0:
+"js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
@@ -5331,6 +5417,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
+
 lodash.defaultsdeep@^4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
@@ -5377,6 +5468,13 @@ loglevel@^1.6.8:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
   integrity sha512-Hesni4s5UkWkwCGJMQGAh71PaLUmKFM60dHvq0zi/vDhhrzuk+4GgNbTXJ12YYQJn6ZKBDNIjYcuQGKudvqrIw==
+
+loose-envify@^1.0.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
 
 loud-rejection@^1.0.0:
   version "1.6.0"
@@ -8592,10 +8690,17 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.6.11:
+vue@^2.6.11, vue@^2.6.12:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
+
+warning@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
+  integrity sha1-MuU3fLVy3kqwR1O9+IIcAe1gW3w=
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
