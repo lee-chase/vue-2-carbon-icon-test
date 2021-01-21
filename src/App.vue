@@ -2,15 +2,21 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Bee32 />
+    <span style="margin-right: 1em;"/>
+    <Bee32 style="color: red;" title="I am a title" />
+    <span style="margin-right: 1.5em;"/>
     <Bee32
       class="test"
       :class="testClass"
       style="color: red;"
       :style="testStyle"
-      title="I am a title"
+      title="I am another title"
       data-other="data-other"
       @click="handleClick"
-    />
+    >
+      <circle cx="16" cy="17" r="8" fill="blue" />
+    </Bee32>
   </div>
 </template>
 
