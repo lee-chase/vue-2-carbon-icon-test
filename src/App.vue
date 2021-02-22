@@ -32,15 +32,15 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import { Bee32 } from "@carbon/icons-vue";
-import AppSwitcher20 from "@carbon/icons-vue/es/app-switcher/20";
+// import { Bee32 } from "@carbon/icons-vue";
+// import AppSwitcher20 from "@carbon/icons-vue/es/app-switcher/20";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
-    Bee32,
-    AppSwitcher20
+    HelloWorld
+    // Bee32,
+    // AppSwitcher20
   },
   data() {
     return {
