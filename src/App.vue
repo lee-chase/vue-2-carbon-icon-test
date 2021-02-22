@@ -11,18 +11,29 @@
       data-other="data-other"
       @click="handleClick"
     />
+    <AppSwitcher20
+      class="test"
+      :class="testClass"
+      style="color: red;"
+      :style="testStyle"
+      title="I am a title"
+      data-other="data-other"
+      @click="handleClick"
+    />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import { Bee32 } from "@carbon/icons-vue";
+import AppSwitcher20 from "@carbon/icons-vue/es/app-switcher/20";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
-    Bee32
+    Bee32,
+    AppSwitcher20
   },
   data() {
     return {
